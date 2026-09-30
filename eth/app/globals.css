@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+:focus-visible { outline: 3px solid #2563eb; outline-offset: 2px; }
+body { font-family: system-ui, sans-serif; }
+a { text-underline-offset: 3px; }
